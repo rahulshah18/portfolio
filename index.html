@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="image/rs.png">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .lock{ display: none;}
+            /*@media only screen and (min-width:320px) and (max-width: 768px) and (orientation:landscape)*/
+            @media only screen and (orientation:portrait)
+            {
+                .lock{ display: block;}
+                .container{display: none;}
+            }
+            /*@media only screen and (min-width:320px) and (max-width: 768px) and (orientation:portrait)*/
+            @media only screen and (orientation:landscape)
+            {
+                .lock{ display: none;}
+                .container{display: block;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="lock">
+            <h1 style="color: white">Please rotate your device</h1>
+        </div>
+        <div class="container">
+            <div class="header">
+                <table width="100%">
+                    <tr>
+                        <td width="50%">
+                            <span class="portfo">Portfo</span><span class="lio">lio.</span>
+                        </td>
+                        <td width="50%">
+                            <a href="#home" > Home </a>
+                            <a href="#about" > About </a>
+                            <a href="#project" > Project </a>
+                            <!--<a href="skill" > Skill </a>-->
+                            <a href="#internship" > Internship </a>
+                            <a href="#contact" > contact </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="home" class="part">
+                <table   width="100%">
+                    <tr>
+                        <td colspan="2" width="50%" height="730px;" class="hello">
+                            Hello, my name is
+                            <br>
+                            <div class="name">Rahul Shah</div>
+                            And i'm a 
+                            <!--<br>-->
+                            <span class="java">
+                                <marquee direction="up" scrollamount="2" >
+                                    Java Full Stack Developer
+                                </marquee>
+                            </span>
+                            <br><br>
+                            <div>
+                                <a href="https://www.linkedin.com/in/rahul-shah-b2a8b51b4/" target="_blank" >
+                                    <input type="button" value="Hire me" class="button"/>
+                                </a>
+                            </div>
+                        </td>
+                        <!--                    <td class="">
+                        
+                                            </td>-->
+                    </tr>
+                </table>
+            </div>
+
+            <div id="about" class="part">
+                <table   width="100%" cellspacing="0" cellpadding="0" >
+                    <tr>
+                        <td colspan="2" height="180px" style="text-align: center">
+                            <div class="aboutMe1">
+                                About me
+                            </div>
+                            <div style="color: white; font-size: 20px;">
+                                --- <span class="aboutMe2">Who i am</span> ---
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" height="550px" style="text-align: center">
+                            <div>
+                                <img src="image/profile.jpg" width="350px"  class="photo" />
+                            </div>
+                        </td>
+                        <td>
+                            <div class="aboutMeName">
+                                I'm Rahul Shah and
+                                <br>
+                                I'm a 
+                                <span class="java" >Java Full Stack Developer
+                                </span>
+                            </div>
+                            <div class="aboutDiscription">
+                                Dedicated web developer with a good understanding of front-end & back-end technologies,
+                                including HTML, CSS, JavaScript, AngularJs, Jsp, Servlet, Spring MVC, SpringBoot.
+                                Skilled in developing responsive, user-friendly websites.
+                                Excited to apply my skills and creativity to contribute to the success of collaborative web development team. 
+                            </div>
+                            <br>
+                            <div>
+                                <a href="https://drive.google.com/file/d/1XEROvJwRzBUe7BsGnsfS-m5iaCgYRJBF/view?usp=drive_link" target="_blank" >
+                                    <input type="button" value="Download CV" class="button"/>   
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="project" class="part">
+                <table  width="100%" cellspacing="0" cellpadding="0" >
+                    <tr>
+                        <td colspan="3" height="180px" style="text-align: center">
+                            <div class="aboutMe1">
+                                Projects
+                            </div>
+                            <div style="color: white; font-size: 20px;">
+                                --- <span class="aboutMe2">What i made</span> ---
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="33%" height="550px" style="text-align: center">
+                            <div class="box" title="Visit Random Quotes">
+                                <div class="projectTitle">
+                                    <a href="https://rahulshah18.github.io/Quotes/" target="_blank">
+                                        Random Quotes Generator
+                                    </a>
+                                    <hr>
+                                </div>
+                                <div class="projectDescription">
+                                    Random quote generator, 
+                                    <br>
+                                    generate quote and displayed.
+                                </div>
+                            </div>
+                        </td>
+                        <td width="33%">
+                            <div class="box" title="Visit Gnius99">
+                                <div class="projectTitle">
+                                    <a href="https://gnius.kpsolutionsindia.com" target="_blank" >
+                                        Gnius99
+                                    </a>
+                                    <br>
+                                    <hr>
+                                </div>
+                                <div class="projectDescription" style="flex-wrap: nowrap">
+                                    Gnius99 A product of KP Solutions it is Quiz game that's provides
+                                    maths and coding challenges for programmers and students.
+                                    Explicitly designed with educational purposes.
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="box" title="Visit Portfolio">
+                                <div class="projectTitle">
+                                    <a href="https://rahulshah18.github.io/portfolio" target="_blank" >    Portfolio</a>
+                                    <br>
+                                    <hr>
+                                </div>
+                                <div class="projectDescription">
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div id="internship" class="part">
+                <table  width="100%" cellspacing="0" cellpadding="0" >
+                    <tr>
+                        <td height="180px" style="text-align: center">
+                            <div class="aboutMe1">
+                                Internship
+                            </div>
+                            <div style="color: white; font-size: 20px;">
+                                --- <span class="aboutMe2">Who with me</span> ---
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="33%" height="550px" style="text-align: center">
+                            <div class="boxInternship">
+                                <div class="projectTitle"  title="Visit KP Solution">
+
+                                    <a href="https://kpsolutionsindia.com/" target="_blank" >
+                                        KP Solutions India Pvt Ltd 	
+                                    </a>
+                                    <hr>
+                                </div>
+                                <div class="internshipDiscription">
+                                    <!--<div>-->
+                                    <table width="100%">
+                                        <tr>
+                                            <td width="20%" >
+                                                <a href="https://kpsolutionsindia.com/" target="_blank" >
+                                                    <img src="image/kp.png" width="150px" height="150px" class="kpLogo"  title="Visit KP Solution"/>
+                                                </a>
+                                            </td>
+                                            <td style="flex-wrap: nowrap">
+
+                                                KP Solutions India is an Excellence Software & Research center as well as
+                                                Training Institute.
+                                                <br>
+                                                My Java Developer Internship provided a solid foundation for my career as a software developer.
+                                                It gave me the chance to apply theoretical knowledge to real-world scenarios, 
+                                                collaborate with industry professionals, and learn essential skills like effective communication,
+                                                continuous learning, and debugging. Whether you're a student or a career switcher,
+                                                a Java Developer Internship can be a stepping stone to a successful and fulfilling career
+                                                in software development. Embrace the challenges, be open to learning, 
+                                                and you'll be well on your way to becoming a proficient Java developer.
+                                                <br>
+                                                Check the page i have created during my internship period below.
+                                                <br><br>
+                                                Gnius99 :- 
+                                                <a href="https://gnius.kpsolutionsindia.com" target="_blank" >
+                                                    https://gnius.kpsolutionsindia.com
+                                                    <a>
+
+                                                        </td>
+                                                        </tr>
+                                                        </table>
+                                                        </div>
+                                                        </div>
+                                                        </td>
+                                                        </tr>
+                                                        </table>
+                                                        </div>
+
+
+
+
+                                                        <div id="contact" class="part contact">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" >
+                                                                <tr>
+                                                                    <td colspan="2" height="180px" style="text-align: center">
+                                                                        <div class="aboutMe1">
+                                                                            Contact me
+                                                                        </div>
+                                                                        <div style="color: white; font-size: 20px;">
+                                                                            --- <span class="aboutMe2">get in touch</span> ---
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="50%" height="550px">
+                                                                        <table width="100%">
+                                                                            <tr>
+                                                                                <td colspan="2" height="40px" align="center" style="font-size: 30px; color: #DC143C;">
+                                                                                    You can contact me
+
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td colspan="2" height="40px" align="center">
+                                                                                    <!--Reach me out-->
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td width="20%" height="40px" class="logo" style="font-size: 50px">&#128100;</td>
+                                                                                <td>
+                                                                                    <!--Name-->
+                                                                                    <table   width="100%" cellspacing="0" cellpadding="0" >                                       
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                Name
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                Rahul Arvind Shah
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td width="20%" height="40px"  class="logo" style="font-size: 50px"> &#x26B2;</td>
+                                                                                <td>
+                                                                                    <!--Address-->                             
+                                                                                    <table width="100%"  cellspacing="0" cellpadding="0" >
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                Address
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                Tandapeth Nagpur
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td width="20%" height="40px"  class="logo" style="font-size: 50px">&#9742;</td>
+
+                                                                                <td>
+                                                                                    <!--Phone-->                             
+                                                                                    <table   width="100%"  cellspacing="0" cellpadding="0" >
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                Phone
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                +91 7263004103
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td width="20%" height="40px"  class="logo" style="font-size: 50px">&#128231;  </td>
+                                                                                <td>
+                                                                                    <!--Mail-->                             
+                                                                                    <table   width="100%"  cellspacing="0" cellpadding="0" >
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                E Mail
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td width="100%" height="30px">
+                                                                                                shah35223@gmail.com 
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                        </table>
+                                                                    </td>
+                                                                    <td>
+
+                                                                        <table   width="100%" >
+                                                                            <tr>
+                                                                                <td  height="40px" align="center" style="font-size: 30px; color: #DC143C;">
+                                                                                    Write us
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td  height="40px">
+                                                                                    <input type="text" placeholder="Name"/>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td  height="40px">
+                                                                                    <input type="text" placeholder=" E Mail id" />
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td  height="40px">
+                                                                                    <input type="text" placeholder="Subject"/>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td  height="80px">
+                                                                                    <textarea placeholder="Message"  rows="6"></textarea>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td  height="40px">
+                                                                                    <!--<input type="button" value="Send Mail" />-->
+                                                                                    <a href="mailto:shah35223@gmail.com"> <button class="button">Send Mail</button></a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+
+
+
+
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <footer >
+                                                            <span>| Created By Rahul Shah |</span>
+                                                        </footer>
+                                                        </div>
+                                                        </body>
+                                                        </html>
